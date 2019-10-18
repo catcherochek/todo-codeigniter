@@ -9,8 +9,8 @@ Installation:
 
 1/ edit ```application/config/database.php```   - set your db settings
 2/ edit ```application/config/config.php```     -set base url
-
-3/after create your database and type in console:
+3/ run ```composer update```
+4/after create your database and type in console:
 
 		```php export```
 
