@@ -1,24 +1,25 @@
 		***Simple TODO List with Codeigniter and Materialize design***
 		
 		
-Installation:
+1/ Installation:(установка, в консоли)
+
 
 
 		```git clone https://github.com/catcherochek/todo-codeigniter```	
 
 
-1/ edit ```application/config/database.php```   - set your db settings
+2/ edit ```application/config/database.php```   - set your db settings(настройте файлы конфигурации базы данных)
 
-2/ edit ```application/config/config.php```     -set base url
+3/ edit ```application/config/config.php```     -set base url(укажите адрес сайта)
 
-3/ run ```composer update```
+4/ run ```composer update```                     -update dependencies(обновите зависимости)
 
-4/after create your database and type in console:
+5/after create your database and type in console:
 
-		```php export```
+   run	```php export```                          -add tables(установите таблицы,  либо через консоль(если установлен php), либо через файл)
 
 or run export.sql
 
-administrator login:admin   password:111111
+administrator login:admin   password:111111(логин и пароль администратора)
 
-navigate to your url
+navigate to your url  (заходите на сайт по адресу, который вы указали в настройках)
