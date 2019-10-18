@@ -4,7 +4,7 @@
 Installation:
 
 
-		git clone	
+		git clone https://github.com/catcherochek/todo-codeigniter	
 
 
 1/ edit application/config/database.php   - set your db settings
