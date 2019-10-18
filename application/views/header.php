@@ -35,7 +35,7 @@
 			</li>
 			<?php if(isset($_SESSION['user'])){ ?>
 				<li class="nav-item">
-					<span style="color: white;" class="nav-link">Welcome <?php echo $_SESSION['user'].'('.$_SESSION['role'].')';  ?></span>
+					<p style="color: white;" class="nav-link">Welcome <?php echo $_SESSION['user'].'('.$_SESSION['role'].')';  ?></p>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo site_url('users/profile/'.$_SESSION['user']); ?>">Profile</a>
@@ -46,9 +46,10 @@
 				<form class="form-inline mt-2 mt-md-0">
 					<input id="search" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 				</form>
+
 			<?php }else{?>
 				<li class="nav-item">
-					<span style="color: white;" class="nav-link">Welcome guest</span>
+					<p style="color: white;" class="nav-link">Welcome guest</p>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo site_url('home/login'); ?>">Log in</a>

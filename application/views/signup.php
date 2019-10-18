@@ -53,10 +53,27 @@
 
 	<script src="<?php echo base_url(); ?>assets/js/moment.min.js"></script>
 	<script>
-		document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
+
+
+            document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.datepicker');
+                var instances = M.Datepicker.init(elems, options);
+            });
             var elems = document.querySelectorAll('.datepicker');
-          //  var instances = M.Datepicker.init(elems, options);
+            elems[0].addEventListener("change", function() {
+                if (moment().diff(elems[0].value,'years',true)<18){
+                    alert('sorry you have to be  older than 18');
+                    elems[0].value = '';
+                }else{
+
+                }
+
+
+            });
+
         });
+
 	</script>
 </body>
 </html>

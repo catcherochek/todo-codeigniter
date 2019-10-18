@@ -13,24 +13,7 @@
 
 	M.AutoInit();
 
-    document.addEventListener('DOMContentLoaded', function() {
-        document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.datepicker');
-            var instances = M.Datepicker.init(elems, options);
-        });
-		var elems = document.querySelectorAll('.datepicker');
-		elems[0].addEventListener("change", function() {
-			if (moment().diff(elems[0].value,'years',true)<18){
-				alert('sorry you have to be  older than 18');
-				elems[0].value = '';
-			}else{
 
-			}
-
-
-		});
-		var instances = M.Datepicker.init(elems, {format:"yyyy-mm-dd"});
-    });
 
     // Or with jQuery
 
