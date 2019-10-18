@@ -18,7 +18,7 @@
 
    run	```php export```                          -add tables(установите таблицы,  либо через консоль(если установлен php), либо через файл)
 
-or run export.sql
+or run ```export.sql```
 
 administrator login:admin   password:111111(логин и пароль администратора)
 
