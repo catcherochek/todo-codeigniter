@@ -43,9 +43,12 @@
 				<li class="nav-item">
 					<a class="nav-link" href="<?php echo site_url('users/logout'); ?>">logout</a>
 				</li>
+				<!--
 				<form class="form-inline mt-2 mt-md-0">
 					<input id="search" class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 				</form>
+				-->
+				
 
 			<?php }else{?>
 				<li class="nav-item">
@@ -110,6 +113,6 @@
 </div>
 <div class="section white">
 	<div class="row container">
-		<h2 class="header">Parallax</h2>
-		<p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+		<h2 class="header">Simple Todo List</h2>
+		<p class="grey-text text-darken-3 lighten-3">Simple Todo List</p>
 
